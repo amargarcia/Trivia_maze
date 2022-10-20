@@ -21,7 +21,7 @@ public class MapsManager {
     public void getMap() {
         try {
             map[0] = new Maps();
-            map[0].image = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/rooms/room_21.png"));
+            map[0].image = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/rooms/room_21.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

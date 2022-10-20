@@ -33,21 +33,21 @@ public class Player extends Entity {
 
         try {
             // up sprites
-            this.up1 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_up1.png"));
-            this.up2 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_up2.png"));
-            this.neutralUp = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_up_neutral.png"));
+            this.up1 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_up1.png"));
+            this.up2 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_up2.png"));
+            this.neutralUp = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_up_neutral.png"));
             // down sprites
-            this.down1 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_down1.png"));
-            this.down2 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_down2.png"));
-            this.neutralDown = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_down_neutral.png"));
+            this.down1 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_down1.png"));
+            this.down2 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_down2.png"));
+            this.neutralDown = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_down_neutral.png"));
             // right sprites
-            this.right1 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_right1.png"));
-            this.right2 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_right2.png"));
-            this.neutralRight = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_right_neutral.png"));
+            this.right1 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_right1.png"));
+            this.right2 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_right2.png"));
+            this.neutralRight = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_right_neutral.png"));
             // left sprites
-            this.left1 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_left1.png"));
-            this.left2 = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_left2.png"));
-            this.neutralLeft = ImageIO.read(new FileInputStream("/Users/amg/TriviaMaze/src/images/players/player_left_neutral.png"));
+            this.left1 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_left1.png"));
+            this.left2 = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_left2.png"));
+            this.neutralLeft = ImageIO.read(new FileInputStream("../TriviaMaze/src/images/players/player_left_neutral.png"));
 
         } catch(IOException e) {
             e.printStackTrace();
